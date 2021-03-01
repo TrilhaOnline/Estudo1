@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E8ED18AF-FBC6-477D-BFD9-48CA66285666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{60BB7270-7C09-4B77-8200-129213DB9D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{96CE3B09-7F84-4BF2-8D21-06F6EA6E71D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Services", "4 - Services", "{F5974FDC-461E-430C-870A-2E46BBB3D77A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{F51BDDDD-43E6-47B1-BEAA-2DB5098DD2D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{63790E60-C6E5-4515-84AC-41E6E050901B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{A11F7051-B0DC-4D7B-81E6-972A08C2E981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Resources", "6 - Resources", "{371C8202-92C7-422A-80C1-E6B8ED85D425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Application.API", "TrilhaOnline.Application.API\TrilhaOnline.Application.API.csproj", "{532F26BF-F1B6-46CD-80F5-15261392E094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Domain", "TrilhaOnline.Domain\TrilhaOnline.Domain.csproj", "{3C334F81-550F-4F9A-A4BF-81EF302F3903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Services.BusinessService", "TrilhaOnline.Services.BusinessService\TrilhaOnline.Services.BusinessService.csproj", "{C32411DD-891F-4587-B6C1-C68397B1BC51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Infra.Data", "TrilhaOnline.Infra.Data\TrilhaOnline.Infra.Data.csproj", "{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Infra.CrossCutting", "TrilhaOnline.Infra.CrossCutting\TrilhaOnline.Infra.CrossCutting.csproj", "{2E9639BA-959A-4B14-A486-A4E676489B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Resources.Utils", "TrilhaOnline.Resources.Utils\TrilhaOnline.Resources.Utils.csproj", "{D31758DE-0820-4FBF-9C02-32AE8097A5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Presentation.Rent.UI", "TrilhaOnline.Presentation.Rent.UI\TrilhaOnline.Presentation.Rent.UI.csproj", "{F0094271-F5AE-4ED6-AAD8-46E78370D1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3 - Script", "5.3 - Script", "{FFEBFF2F-9E48-490B-B766-A7D398878E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3.1 - Tables", "5.3.1 - Tables", "{F4157206-F610-4C3B-9DD3-73E67E3BB956}"
+	ProjectSection(SolutionItems) = preProject
+		TB_TRL_CARS.sql = TB_TRL_CARS.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3.2 - Procedures", "5.3.2 - Procedures", "{514AFC26-A853-4B81-99D5-20AE9AA1733C}"
+	ProjectSection(SolutionItems) = preProject
+		SP_TRL_GET_CARS.sql = SP_TRL_GET_CARS.sql
+		SP_TRL_INSERT_CARS.sql = SP_TRL_INSERT_CARS.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532F26BF-F1B6-46CD-80F5-15261392E094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532F26BF-F1B6-46CD-80F5-15261392E094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532F26BF-F1B6-46CD-80F5-15261392E094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532F26BF-F1B6-46CD-80F5-15261392E094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C334F81-550F-4F9A-A4BF-81EF302F3903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C334F81-550F-4F9A-A4BF-81EF302F3903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C334F81-550F-4F9A-A4BF-81EF302F3903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C334F81-550F-4F9A-A4BF-81EF302F3903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32411DD-891F-4587-B6C1-C68397B1BC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32411DD-891F-4587-B6C1-C68397B1BC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32411DD-891F-4587-B6C1-C68397B1BC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32411DD-891F-4587-B6C1-C68397B1BC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9639BA-959A-4B14-A486-A4E676489B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9639BA-959A-4B14-A486-A4E676489B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9639BA-959A-4B14-A486-A4E676489B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9639BA-959A-4B14-A486-A4E676489B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31758DE-0820-4FBF-9C02-32AE8097A5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31758DE-0820-4FBF-9C02-32AE8097A5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31758DE-0820-4FBF-9C02-32AE8097A5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31758DE-0820-4FBF-9C02-32AE8097A5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0094271-F5AE-4ED6-AAD8-46E78370D1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0094271-F5AE-4ED6-AAD8-46E78370D1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0094271-F5AE-4ED6-AAD8-46E78370D1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0094271-F5AE-4ED6-AAD8-46E78370D1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63790E60-C6E5-4515-84AC-41E6E050901B} = {F51BDDDD-43E6-47B1-BEAA-2DB5098DD2D9}
+		{A11F7051-B0DC-4D7B-81E6-972A08C2E981} = {F51BDDDD-43E6-47B1-BEAA-2DB5098DD2D9}
+		{532F26BF-F1B6-46CD-80F5-15261392E094} = {60BB7270-7C09-4B77-8200-129213DB9D03}
+		{3C334F81-550F-4F9A-A4BF-81EF302F3903} = {96CE3B09-7F84-4BF2-8D21-06F6EA6E71D3}
+		{C32411DD-891F-4587-B6C1-C68397B1BC51} = {F5974FDC-461E-430C-870A-2E46BBB3D77A}
+		{E5B9B440-7F1E-44F1-8C0B-B0E8F0ECF730} = {63790E60-C6E5-4515-84AC-41E6E050901B}
+		{2E9639BA-959A-4B14-A486-A4E676489B80} = {A11F7051-B0DC-4D7B-81E6-972A08C2E981}
+		{D31758DE-0820-4FBF-9C02-32AE8097A5D0} = {371C8202-92C7-422A-80C1-E6B8ED85D425}
+		{F0094271-F5AE-4ED6-AAD8-46E78370D1D2} = {E8ED18AF-FBC6-477D-BFD9-48CA66285666}
+		{FFEBFF2F-9E48-490B-B766-A7D398878E9E} = {F51BDDDD-43E6-47B1-BEAA-2DB5098DD2D9}
+		{F4157206-F610-4C3B-9DD3-73E67E3BB956} = {FFEBFF2F-9E48-490B-B766-A7D398878E9E}
+		{514AFC26-A853-4B81-99D5-20AE9AA1733C} = {FFEBFF2F-9E48-490B-B766-A7D398878E9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {005794F6-757A-489F-B130-3B4B6D281A53}
+	EndGlobalSection
+EndGlobal
